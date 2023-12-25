@@ -1,2 +1,16 @@
-# Bike-Rental
-Bike dataset project ini berisi dataset yang sudah diolah menggunakan google collab dan sudah dilakukan visualisasi data mengenai  pemakaian sepeda / jam 
+# How to Run Streamlit Dashboard
+This is a brief guide to running the Streamlit dashboard. Make sure you have installed all the required libraries before running the application. You can ignore the ipynb file because I only used it for comprehensive data cleaning and performing exploratory data analysis (EDA) before creating the data dashboard.
+
+# Install Dependencies
+To install all the required libraries, open your terminal/command prompt, navigate to this project folder, and run the following command:
+
+pip install -r requirements.txt
+Run Dashboard
+
+# View Dashboard Directly
+In the data dashboard, you can directly observe the teren rent the bicycle on 2011-2012, starting from dteday, season, day, yr, month, hr, holiday, weekday, workingday, weathersit
+temp, atemp, hum, windspeed, casual, register, cnt fro the data. Many factors influence the use of the bicycle. In addition, the dashboard also provides information on how to read the data using daily and hourly data.
+
+Here's the Link : http://localhost:8504/
+
+
