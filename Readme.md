@@ -1,17 +1,14 @@
-How to Run Streamlit Dashboard
+# How to Run Streamlit Dashboard
 This is a brief guide to running the Streamlit dashboard. Make sure you have installed all the required libraries before running the application. You can ignore the ipynb file because I only used it for comprehensive data cleaning and performing exploratory data analysis (EDA) before creating the data dashboard.
 
-### Setup environment
-```# Buat lingkungan menggunakan conda
+# Setup environment
+## Buat lingkungan menggunakan conda
 conda create --name main-ds python=3.9
-
-# Aktifkan lingkungan
+## Aktifkan lingkungan
 conda activate main-ds
-
-''' # Instal paket-paket yang diperlukan
+## Instal paket-paket yang diperlukan
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
-
-''' # Jalankan aplikasi Streamlit
+# Jalankan aplikasi Streamlit
 streamlit run dashboard.py
 
 
