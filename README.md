@@ -2,10 +2,9 @@
 This is a brief guide to running the Streamlit dashboard. Make sure you have installed all the required libraries before running the application. You can ignore the ipynb file because I only used it for comprehensive data cleaning and performing exploratory data analysis (EDA) before creating the data dashboard.
 
 # Install Dependencies
-To install all the required libraries, open your terminal/command prompt, navigate to this project folder, and run the following command:
-
-pip install -r requirements.txt
-Run Dashboard
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
 # View Dashboard Directly
 In the data dashboard, you can directly observe the teren rent the bicycle on 2011-2012, starting from dteday, season, day, yr, month, hr, holiday, weekday, workingday, weathersit
